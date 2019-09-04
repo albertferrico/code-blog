@@ -138,7 +138,7 @@ EOS
   my $data = {content => $content};
   
   # Before days link
-  $data->{content} .= qq(\n<div class="before-days"><a href="/list.html">Before Days</a></div>);
+  $data->{content} .= qq(\n<div class="before-days"><a href="/list.html">Entradas anteriores</a></div>);
   
   # Title
   $data->{title} = $config->{site_title};
